@@ -1,0 +1,11 @@
+def thong_ke_tuple(numbers):
+    tong = sum(numbers)
+    lon_nhat = max(numbers)
+    nho_nhat = min(numbers)
+    return tong, lon_nhat, nho_nhat
+tup = (10, 5, 8, 20, 3)
+
+tong, max_val, min_val = thong_ke_tuple(tup)
+print("Tổng:", tong)
+print("Lớn nhất:", max_val)
+print("Nhỏ nhất:", min_val)
